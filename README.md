@@ -41,13 +41,14 @@ Es la carpeta de todos los modulos
 - Es la carpeta donde estan todas las pagina
 - _app.js es el padre, donde se va renderizar todo
 
-## Preparamos el _app.js
+## Preparamos el entorno
 - https://react.semantic-ui.com/
 - instalacion de librerias de estilo para **react** y **css**  ````npm install semantic-ui-react semantic-ui-css````
 - ````sass```` compilador de estilos.
 - Eliminamos la carpeta ````styles/Home.module.css```` , borramos la importacion en el ````index.js````.
 - Cambiamos el archivo ````styles/global.css```` --> ````styles/global.scss````.
 ````js
+# _app.js
 import '../styles/globals.scss'
 import "semantic-ui-css/semantic.min.css"
 
