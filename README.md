@@ -44,3 +44,18 @@ Es la carpeta de todos los modulos
 ### instalar librerias 
 - instalacion de librerias de estilo para **react** y **css**  ````npm install semantic-ui-react semantic-ui-css````
 - ````sass```` compilador de estilos.
+
+## Preparamos el _app.js
+````
+import "../styles/global.scss";
+import "semantic-ui-css/semantic.min.css"
+
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      <h1>Hola mundo NextJs</h1>
+    </div>
+  );
+}
+````

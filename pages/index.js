@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../styles/global.scss";
 import "semantic-ui-css/semantic.min.css"
 
 
