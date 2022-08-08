@@ -41,4 +41,6 @@ Es la carpeta de todos los modulos
 - Es la carpeta donde estan todas las pagina
 - _app.js es el padre, donde se va renderizar todo
 
-### Rutas absolutas.
+### instalar librerias 
+- instalacion de librerias de estilo
+    - ````npm install semantic-ui-react semantic-ui-css````
