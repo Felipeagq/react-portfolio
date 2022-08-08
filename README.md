@@ -44,6 +44,7 @@ Es la carpeta de todos los modulos
 ### instalar librerias 
 - instalacion de librerias de estilo para **react** y **css**  ````npm install semantic-ui-react semantic-ui-css````
 - ````sass```` compilador de estilos.
+- Eliminamos la carpeta ````styles/Home.module.css```` y borramos la importacion en el ````index.js````
 
 ## Preparamos el _app.js
 ````js
