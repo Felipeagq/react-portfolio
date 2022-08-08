@@ -46,7 +46,7 @@ Es la carpeta de todos los modulos
 - ````sass```` compilador de estilos.
 
 ## Preparamos el _app.js
-````
+````js
 import "../styles/global.scss";
 import "semantic-ui-css/semantic.min.css"
 
