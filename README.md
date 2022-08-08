@@ -42,5 +42,5 @@ Es la carpeta de todos los modulos
 - _app.js es el padre, donde se va renderizar todo
 
 ### instalar librerias 
-- instalacion de librerias de estilo
-    - ````npm install semantic-ui-react semantic-ui-css````
+- instalacion de librerias de estilo para **react** y **css**  ````npm install semantic-ui-react semantic-ui-css````
+- ````sass```` compilador de estilos.

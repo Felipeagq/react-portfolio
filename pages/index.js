@@ -1,4 +1,6 @@
-import styles from "../styles/Home.module.css";
+import "../styles/global.css";
+import "semantic-ui-css/semantic.min.css"
+
 
 export default function Home() {
   return (
