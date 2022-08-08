@@ -41,23 +41,21 @@ Es la carpeta de todos los modulos
 - Es la carpeta donde estan todas las pagina
 - _app.js es el padre, donde se va renderizar todo
 
-### instalar librerias 
+## Preparamos el _app.js
+- https://react.semantic-ui.com/
 - instalacion de librerias de estilo para **react** y **css**  ````npm install semantic-ui-react semantic-ui-css````
 - ````sass```` compilador de estilos.
 - Eliminamos la carpeta ````styles/Home.module.css```` , borramos la importacion en el ````index.js````.
 - Cambiamos el archivo ````styles/global.css```` --> ````styles/global.scss````.
-
-## Preparamos el _app.js
 ````js
-import "../styles/global.scss";
+import '../styles/globals.css'
 import "semantic-ui-css/semantic.min.css"
 
-
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <h1>Hola mundo NextJs</h1>
-    </div>
-  );
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
+
+export default MyApp
 ````
+- dentro de ````styles```` creamos ````styles/index.scss```` y ````styles/colors.scss````.
+- Creamos una carpeta llamada ````components````.
