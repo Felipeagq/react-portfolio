@@ -48,7 +48,7 @@ Es la carpeta de todos los modulos
 - Eliminamos la carpeta ````styles/Home.module.css```` , borramos la importacion en el ````index.js````.
 - Cambiamos el archivo ````styles/global.css```` --> ````styles/global.scss````.
 ````js
-# _app.js
+/* _app.js */
 import '../styles/globals.scss'
 import "semantic-ui-css/semantic.min.css"
 
