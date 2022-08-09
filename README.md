@@ -60,3 +60,14 @@ export default MyApp
 ````
 - dentro de ````styles```` creamos ````styles/index.scss```` y ````styles/colors.scss````.
 - Creamos una carpeta llamada ````components````.
+
+
+## Crear un componente
+- crear la carpeta del ````componente````.
+- Creo 3 archivos:
+  - ````componente.js```` del componente
+  - ````componente.scss```` del componente
+  - ````index.js```` de la exportación del componente.
+- nos vamos al ````componente.js```` del componente y corremos ````rfc```` (reactFunctionalComponent).
+- exportamos el componente  ````export { default } from "./Layout";```` en ````index.js```` del componente.
+- me dirijo a ````styles/index.scss```` e importo los estilos de mi componente ````@import "../components/componente/componente.scss";````
